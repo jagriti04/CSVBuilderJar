@@ -3,9 +3,9 @@ package com.bl.csvbuilder;
 public class CSVException extends Exception {
 
     public enum ExceptionType {
-        CENSUS_FILE_PROBLEM, WRONG_CENSUS_CSV_FILE,
+        CSV_FILE_PROBLEM, WRONG_CSV_FILE,
         STATE_CODE_FILE_PROBLEM, WRONG_STATE_CODE_FILE,
-        NO_CENSUS_DATA, NO_STATE_CODE_DATA,
+        NO_CSV_DATA, NO_STATE_CODE_DATA,
         UNABLE_TO_PARSE;
     }
 
